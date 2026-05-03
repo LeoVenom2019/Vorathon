@@ -1,0 +1,166 @@
+{
+  "stages": [
+    {
+      "id": "fase_01",
+      "name": "O Limiar do Vácuo",
+      "duration": 120,
+      "enemyPool": ["COMMON", "FAST"],
+      "initialSpawnRate": 1.5,
+      "maxSpawnRate": 0.5,
+      "bossId": "boss_hades"
+    },
+    {
+      "id": "fase_02",
+      "name": "As Marés Estáticas",
+      "duration": 180,
+      "enemyPool": ["COMMON", "FAST"],
+      "initialSpawnRate": 1.2,
+      "maxSpawnRate": 0.3,
+      "bossId": "boss_poseidon"
+    },
+    {
+      "id": "fase_03",
+      "name": "O Trovão Interrompido",
+      "duration": 180,
+      "enemyPool": ["COMMON", "FAST", "ELITE"],
+      "initialSpawnRate": 1.0,
+      "maxSpawnRate": 0.25,
+      "bossId": "boss_zeus"
+    },
+    {
+      "id": "fase_04",
+      "name": "Círculo de Ares",
+      "duration": 200,
+      "enemyPool": ["COMMON", "FAST", "TANK"],
+      "initialSpawnRate": 1.0,
+      "maxSpawnRate": 0.2,
+      "bossId": "boss_ares"
+    },
+    {
+      "id": "fase_05",
+      "name": "O Algoritmo de Athena",
+      "duration": 200,
+      "enemyPool": ["COMMON", "FAST", "TANK"],
+      "initialSpawnRate": 0.9,
+      "maxSpawnRate": 0.18,
+      "bossId": "boss_athena"
+    },
+    {
+      "id": "fase_06",
+      "name": "Velocidade de Escape",
+      "duration": 150,
+      "enemyPool": ["FAST", "ELITE"],
+      "initialSpawnRate": 0.8,
+      "maxSpawnRate": 0.15,
+      "bossId": "boss_hermes"
+    },
+    {
+      "id": "fase_07",
+      "name": "Sombra da Caçadora",
+      "duration": 240,
+      "enemyPool": ["COMMON", "FAST", "TANK", "ELITE"],
+      "initialSpawnRate": 1.1,
+      "maxSpawnRate": 0.2,
+      "bossId": "boss_artemis"
+    },
+    {
+      "id": "fase_08",
+      "name": "A Forja do Vácuo",
+      "duration": 240,
+      "enemyPool": ["TANK", "ELITE"],
+      "initialSpawnRate": 1.0,
+      "maxSpawnRate": 0.15,
+      "bossId": "boss_hephaestus"
+    },
+    {
+      "id": "fase_09",
+      "name": "Fractal do Tempo",
+      "duration": 300,
+      "enemyPool": ["COMMON", "FAST", "TANK", "ELITE"],
+      "initialSpawnRate": 0.8,
+      "maxSpawnRate": 0.12,
+      "bossId": "boss_chronos"
+    },
+    {
+      "id": "fase_10",
+      "name": "Noite Eterna",
+      "duration": 360,
+      "enemyPool": ["ELITE", "TANK"],
+      "initialSpawnRate": 0.7,
+      "maxSpawnRate": 0.1,
+      "bossId": "boss_nyx"
+    },
+    {
+      "id": "area2_fase_01", "name": "Profundidades Abissais", "duration": 120, "enemyPool": ["COMMON", "FAST"], "initialSpawnRate": 1.4, "maxSpawnRate": 0.45, "bossId": "boss_hades"
+    },
+    {
+      "id": "area2_fase_02", "name": "Vórtice de Netuno", "duration": 180, "enemyPool": ["COMMON", "FAST"], "initialSpawnRate": 1.2, "maxSpawnRate": 0.35, "bossId": "boss_poseidon"
+    },
+    {
+      "id": "area2_fase_03", "name": "Recifes Radioativos", "duration": 180, "enemyPool": ["COMMON", "FAST", "ELITE"], "initialSpawnRate": 1.1, "maxSpawnRate": 0.3, "bossId": "boss_zeus"
+    },
+    {
+      "id": "area2_fase_04", "name": "Correntes de Plasma", "duration": 200, "enemyPool": ["COMMON", "FAST", "TANK"], "initialSpawnRate": 1.0, "maxSpawnRate": 0.25, "bossId": "boss_ares"
+    },
+    {
+      "id": "area2_fase_05", "name": "A Trincheira", "duration": 200, "enemyPool": ["COMMON", "FAST", "TANK"], "initialSpawnRate": 0.9, "maxSpawnRate": 0.22, "bossId": "boss_athena"
+    },
+    {
+      "id": "area2_fase_06", "name": "Fluxo Laminar", "duration": 150, "enemyPool": ["FAST", "ELITE"], "initialSpawnRate": 0.8, "maxSpawnRate": 0.18, "bossId": "boss_hermes"
+    },
+    {
+      "id": "area2_fase_07", "name": "Olho do Tufão", "duration": 240, "enemyPool": ["COMMON", "FAST", "TANK", "ELITE"], "initialSpawnRate": 1.1, "maxSpawnRate": 0.25, "bossId": "boss_artemis"
+    },
+    {
+      "id": "area2_fase_08", "name": "Fossa do Medo", "duration": 240, "enemyPool": ["TANK", "ELITE"], "initialSpawnRate": 1.0, "maxSpawnRate": 0.2, "bossId": "boss_hephaestus"
+    },
+    {
+      "id": "area2_fase_09", "name": "Ecos de Poseidon", "duration": 300, "enemyPool": ["COMMON", "FAST", "TANK", "ELITE"], "initialSpawnRate": 0.8, "maxSpawnRate": 0.15, "bossId": "boss_chronos"
+    },
+    {
+      "id": "area2_fase_10", "name": "Domínio do Oceano", "duration": 360, "enemyPool": ["ELITE", "TANK"], "initialSpawnRate": 0.7, "maxSpawnRate": 0.1, "bossId": "boss_poseidon"
+    },
+    {
+      "id": "area3_fase_01", "name": "Deserto Solar", "duration": 120, "enemyPool": ["COMMON", "FAST"], "initialSpawnRate": 1.3, "maxSpawnRate": 0.4, "bossId": "boss_hades"
+    },
+    { "id": "area3_fase_02", "name": "Mar de Vidro", "duration": 150, "enemyPool": ["COMMON"], "initialSpawnRate": 1.2, "maxSpawnRate": 0.35, "bossId": "boss_athena" },
+    { "id": "area3_fase_03", "name": "Tempestade de Sílica", "duration": 180, "enemyPool": ["FAST"], "initialSpawnRate": 1.1, "maxSpawnRate": 0.3, "bossId": "boss_zeus" },
+    { "id": "area3_fase_04", "name": "Ruínas Escaldantes", "duration": 200, "enemyPool": ["TANK"], "initialSpawnRate": 1.0, "maxSpawnRate": 0.25, "bossId": "boss_ares" },
+    { "id": "area3_fase_05", "name": "Oásis de Plasma", "duration": 200, "enemyPool": ["ELITE"], "initialSpawnRate": 0.9, "maxSpawnRate": 0.22, "bossId": "boss_poseidon" },
+    { "id": "area3_fase_06", "name": "Vento Solar", "duration": 150, "enemyPool": ["FAST", "ELITE"], "initialSpawnRate": 0.8, "maxSpawnRate": 0.18, "bossId": "boss_hermes" },
+    { "id": "area3_fase_07", "name": "Dunas Sangrentas", "duration": 240, "enemyPool": ["COMMON", "TANK"], "initialSpawnRate": 1.1, "maxSpawnRate": 0.25, "bossId": "boss_artemis" },
+    { "id": "area3_fase_08", "name": "Miragem Quântica", "duration": 240, "enemyPool": ["ELITE"], "initialSpawnRate": 1.0, "maxSpawnRate": 0.2, "bossId": "boss_hephaestus" },
+    { "id": "area3_fase_09", "name": "Sol da Meia-Noite", "duration": 300, "enemyPool": ["TANK", "ELITE"], "initialSpawnRate": 0.8, "maxSpawnRate": 0.15, "bossId": "boss_chronos" },
+    {
+      "id": "area3_fase_10", "name": "O Olho de Hélios", "duration": 360, "enemyPool": ["ELITE", "TANK"], "initialSpawnRate": 0.6, "maxSpawnRate": 0.08, "bossId": "boss_zeus"
+    },
+    {
+      "id": "area4_fase_01", "name": "Caldera de Plasma", "duration": 120, "enemyPool": ["COMMON", "FAST"], "initialSpawnRate": 1.2, "maxSpawnRate": 0.35, "bossId": "boss_hades"
+    },
+    { "id": "area4_fase_02", "name": "Rios de Magma", "duration": 150, "enemyPool": ["COMMON", "TANK"], "initialSpawnRate": 1.1, "maxSpawnRate": 0.3, "bossId": "boss_ares" },
+    { "id": "area4_fase_03", "name": "Câmara de Pressão", "duration": 180, "enemyPool": ["TANK", "ELITE"], "initialSpawnRate": 1.0, "maxSpawnRate": 0.25, "bossId": "boss_hephaestus" },
+    { "id": "area4_fase_04", "name": "Chamas Eternas", "duration": 200, "enemyPool": ["FAST"], "initialSpawnRate": 0.9, "maxSpawnRate": 0.22, "bossId": "boss_zeus" },
+    { "id": "area4_fase_05", "name": "Núcleo Exposto", "duration": 200, "enemyPool": ["COMMON", "ELITE"], "initialSpawnRate": 0.8, "maxSpawnRate": 0.2, "bossId": "boss_athena" },
+    { "id": "area4_fase_06", "name": "Vapor Letal", "duration": 150, "enemyPool": ["FAST", "ELITE"], "initialSpawnRate": 0.7, "maxSpawnRate": 0.18, "bossId": "boss_hermes" },
+    { "id": "area4_fase_07", "name": "Cinzas Estelares", "duration": 240, "enemyPool": ["TANK"], "initialSpawnRate": 0.9, "maxSpawnRate": 0.2, "bossId": "boss_artemis" },
+    { "id": "area4_fase_08", "name": "Forja Infernal", "duration": 240, "enemyPool": ["ELITE"], "initialSpawnRate": 0.8, "maxSpawnRate": 0.15, "bossId": "boss_hephaestus" },
+    { "id": "area4_fase_09", "name": "Purgatório", "duration": 300, "enemyPool": ["TANK", "ELITE"], "initialSpawnRate": 0.6, "maxSpawnRate": 0.1, "bossId": "boss_chronos" },
+    {
+      "id": "area4_fase_10", "name": "Coração de Hades", "duration": 360, "enemyPool": ["ELITE", "TANK"], "initialSpawnRate": 0.5, "maxSpawnRate": 0.05, "bossId": "boss_hades"
+    },
+    {
+      "id": "area5_fase_01", "name": "Borda do Evento", "duration": 120, "enemyPool": ["COMMON", "FAST"], "initialSpawnRate": 1.0, "maxSpawnRate": 0.3, "bossId": "boss_nyx"
+    },
+    { "id": "area5_fase_02", "name": "Horizonte de Eventos", "duration": 150, "enemyPool": ["ELITE"], "initialSpawnRate": 0.9, "maxSpawnRate": 0.25, "bossId": "boss_chronos" },
+    { "id": "area5_fase_03", "name": "Vácuo Absoluto", "duration": 180, "enemyPool": ["TANK", "ELITE"], "initialSpawnRate": 0.8, "maxSpawnRate": 0.2, "bossId": "boss_nyx" },
+    { "id": "area5_fase_04", "name": "Nulidade", "duration": 200, "enemyPool": ["COMMON", "ELITE"], "initialSpawnRate": 0.7, "maxSpawnRate": 0.15, "bossId": "boss_zeus" },
+    { "id": "area5_fase_05", "name": "O Nada", "duration": 200, "enemyPool": ["FAST", "ELITE"], "initialSpawnRate": 0.6, "maxSpawnRate": 0.12, "bossId": "boss_athena" },
+    { "id": "area5_fase_06", "name": "Colapso Temporal", "duration": 150, "enemyPool": ["ELITE"], "initialSpawnRate": 0.5, "maxSpawnRate": 0.1, "bossId": "boss_hermes" },
+    { "id": "area5_fase_07", "name": "Entropia Máxima", "duration": 240, "enemyPool": ["TANK", "ELITE"], "initialSpawnRate": 0.6, "maxSpawnRate": 0.1, "bossId": "boss_artemis" },
+    { "id": "area5_fase_08", "name": "Paradoxo", "duration": 240, "enemyPool": ["ELITE"], "initialSpawnRate": 0.5, "maxSpawnRate": 0.08, "bossId": "boss_hephaestus" },
+    { "id": "area5_fase_09", "name": "O Crepúsculo", "duration": 300, "enemyPool": ["ELITE", "TANK"], "initialSpawnRate": 0.4, "maxSpawnRate": 0.05, "bossId": "boss_chronos" },
+    {
+      "id": "area5_fase_10", "name": "O Fim de Tudo", "duration": 480, "enemyPool": ["ELITE", "TANK"], "initialSpawnRate": 0.4, "maxSpawnRate": 0.05, "bossId": "boss_nyx"
+    }
+  ]
+}

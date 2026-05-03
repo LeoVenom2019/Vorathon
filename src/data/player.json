@@ -1,0 +1,34 @@
+{
+  "player": {
+    "stats": {
+      "hp": 100,
+      "maxHp": 100,
+      "energy": 100,
+      "maxEnergy": 100,
+      "isOverloaded": false,
+      "damage": 10,
+      "speed": 400,
+      "fireRate": 0.25,
+      "critChance": 5,
+      "critDamage": 3
+    },
+    "currency": {
+      "gold": 0,
+      "primordialShards": 0
+    },
+    "inventory": {
+      "runes": [],
+      "relics": [],
+      "chaosOrbs": []
+    },
+    "equippedRunes": [null, null],
+    "equippedRelics": [null, null],
+    "equippedChaosOrbs": [null, null, null, null],
+    "progression": {
+      "level": 1,
+      "exp": 0,
+      "nextLevelExp": 100,
+      "skillPoints": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "id": "navigation",
+      "name": "Navegação",
+      "description": "Temas de exploração de menus e interatividade"
+    },
+    {
+      "id": "phases",
+      "name": "Fases",
+      "description": "Trilhas de combate em áreas cósmicas"
+    },
+    {
+      "id": "bosses",
+      "name": "Bosses",
+      "description": "Temas épicos de confrontos finais"
+    },
+    {
+      "id": "celestial",
+      "name": "Celestial",
+      "description": "Músicas raras de eventos divinos"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "nebula_menu",
+      "categoryId": "navigation",
+      "name": "Vozes da Nebulosa",
+      "color": "#3b82f6",
+      "unlockCondition": "default"
+    },
+    {
+      "id": "cosmic_arena",
+      "categoryId": "phases",
+      "name": "Arena de Cristal",
+      "color": "#06b6d4",
+      "unlockCondition": "reach_area_1"
+    },
+    {
+      "id": "abyssal_sector",
+      "categoryId": "phases",
+      "name": "Setor Abissal",
+      "color": "#4f46e5",
+      "unlockCondition": "reach_area_3"
+    },
+    {
+      "id": "hades_vortex",
+      "categoryId": "bosses",
+      "name": "Vórtice de Hades",
+      "color": "#ef4444",
+      "unlockCondition": "kill_boss_hades"
+    },
+    {
+      "id": "zeus_wrath",
+      "categoryId": "bosses",
+      "name": "Ira de Zeus",
+      "color": "#fbbf24",
+      "unlockCondition": "kill_boss_zeus"
+    },
+    {
+      "id": "primordial_pulse",
+      "categoryId": "celestial",
+      "name": "Pulso Primordial",
+      "color": "#a855f7",
+      "unlockCondition": "diff_nightmare"
+    }
+  ]
+}

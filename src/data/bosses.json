@@ -1,0 +1,104 @@
+{
+  "bosses": [
+    {
+      "id": "boss_hades",
+      "nome": "Hades",
+      "titulo": "Senhor das Cinzas Eternas",
+      "vida": 1200,
+      "velocidade": 40,
+      "comportamento": "invoca_sombras",
+      "tema": "#450a0a",
+      "descricao": "Fragmento corrompido do deus do submundo. Canaliza o vácuo para invocar ecos do passado."
+    },
+    {
+      "id": "boss_poseidon",
+      "nome": "Poseidon",
+      "titulo": "A Maré Quebrada",
+      "vida": 1100,
+      "velocidade": 50,
+      "comportamento": "ataque_onda",
+      "tema": "#0c4a6e",
+      "descricao": "O mar agora é estático e digital. Poseidon tenta afogar a realidade em ondas de código corrompido."
+    },
+    {
+      "id": "boss_zeus",
+      "nome": "Zeus",
+      "titulo": "O Fragmento do Trovão",
+      "vida": 900,
+      "velocidade": 120,
+      "comportamento": "ataque_rapido",
+      "tema": "#fde047",
+      "descricao": "Energia pura comprimida em uma forma biomecânica instável. Seus ataques são flashes de destruição."
+    },
+    {
+      "id": "boss_ares",
+      "nome": "Ares",
+      "titulo": "Fúria da Guerra Infinita",
+      "vida": 1500,
+      "velocidade": 70,
+      "comportamento": "perseguicao",
+      "tema": "#991b1b",
+      "descricao": "Um motor de guerra que nunca para. Ares busca o conflito perpétuo contra qualquer piloto que cruze seu caminho."
+    },
+    {
+      "id": "boss_athena",
+      "nome": "Athena",
+      "titulo": "A Lógica Destruída",
+      "vida": 1000,
+      "velocidade": 60,
+      "comportamento": "desviar_inteligente",
+      "tema": "#0d9488",
+      "descricao": "Um sistema estratégico outrora perfeito, agora fragmentado e agindo por algoritmos de sobrevivência insanos."
+    },
+    {
+      "id": "boss_hermes",
+      "nome": "Hermes",
+      "titulo": "O Eco da Velocidade",
+      "vida": 800,
+      "velocidade": 180,
+      "comportamento": "erratico",
+      "tema": "#ea580c",
+      "descricao": "Onde ele termina e o vácuo começa? Deixa rastro de energia distorcida por onde passa."
+    },
+    {
+      "id": "boss_artemis",
+      "nome": "Artemis",
+      "titulo": "Olhar da Caçadora",
+      "vida": 950,
+      "velocidade": 55,
+      "comportamento": "precisao",
+      "tema": "#166534",
+      "descricao": "Nenhum alvo escapa de seus sensores de longo alcance. Ela caça com a frieza de uma flecha laser."
+    },
+    {
+      "id": "boss_hephaestus",
+      "nome": "Hephaestus",
+      "titulo": "O Forjador Caído",
+      "vida": 1600,
+      "velocidade": 30,
+      "comportamento": "cria_entidades",
+      "tema": "#7c2d12",
+      "descricao": "Mestre da Forja Celestial, agora reconstrói a si mesmo e a seus servos com sucata espacial incandescente."
+    },
+    {
+      "id": "boss_chronos",
+      "nome": "Chronos",
+      "titulo": "Tempo Fragmentado",
+      "vida": 1300,
+      "velocidade": 45,
+      "comportamento": "vibracao_tempo",
+      "tema": "#4338ca",
+      "descricao": "O tempo se dobra ao seu redor. Ele existe em múltiplos momentos simultâneos, tornando-o difícil de atingir."
+    },
+    {
+      "id": "boss_nyx",
+      "nome": "Nyx",
+      "titulo": "A Noite Absoluta",
+      "vida": 2500,
+      "velocidade": 35,
+      "comportamento": "escuridao_total",
+      "tema": "#1e1b4b",
+      "descricao": "A personificação do vácuo absoluto. Onde Nyx passa, a luz não é apenas bloqueada, ela deixa de existir."
+    }
+  ]
+}

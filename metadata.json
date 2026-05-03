@@ -1,0 +1,6 @@
+{
+  "name": "Vorathon",
+  "description": "A robust widescreen shmup engine with a data-driven modular architecture, featuring a Celestial Forge system, runes, and relics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

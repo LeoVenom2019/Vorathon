@@ -1,0 +1,104 @@
+{
+  "areas": [
+    {
+      "id": "area_1",
+      "name": "Nexo de Órion",
+      "subtitle": "Espaço Inicial",
+      "description": "Onde tudo começa. Fronteiras de patrulha da federação.",
+      "threatLevel": "Mínima",
+      "modifiers": {
+        "enemyHp": 1.0,
+        "enemyDmg": 1.0,
+        "eliteChance": 0,
+        "bossHp": 1.0,
+        "gold": 1.0,
+        "xp": 1.0,
+        "shards": 1.0
+      },
+      "stages": [
+        "fase_01", "fase_02", "fase_03", "fase_04", "fase_05",
+        "fase_06", "fase_07", "fase_08", "fase_09", "fase_10"
+      ]
+    },
+    {
+      "id": "area_2",
+      "name": "Abismo de Poseidon",
+      "subtitle": "Oceano Cósmico",
+      "description": "Uma região densa de matéria escura fluida e nebulosas úmidas.",
+      "threatLevel": "Moderada",
+      "modifiers": {
+        "enemyHp": 1.1,
+        "enemyDmg": 1.1,
+        "eliteChance": 0.1,
+        "bossHp": 1.2,
+        "gold": 1.1,
+        "xp": 1.1,
+        "shards": 1.1
+      },
+      "stages": [
+        "area2_fase_01", "area2_fase_02", "area2_fase_03", "area2_fase_04", "area2_fase_05",
+        "area2_fase_06", "area2_fase_07", "area2_fase_08", "area2_fase_09", "area2_fase_10"
+      ]
+    },
+    {
+       "id": "area_3",
+       "name": "Dunas de Hélios",
+       "subtitle": "Deserto Estelar",
+       "description": "Radiação solar intensa e tempestades de areia quântica.",
+       "threatLevel": "Elevada",
+       "modifiers": {
+        "enemyHp": 1.2,
+        "enemyDmg": 1.2,
+        "eliteChance": 0.2,
+        "bossHp": 1.3,
+        "gold": 1.15,
+        "xp": 1.15,
+        "shards": 1.15
+      },
+       "stages": [
+         "area3_fase_01", "area3_fase_02", "area3_fase_03", "area3_fase_04", "area3_fase_05",
+         "area3_fase_06", "area3_fase_07", "area3_fase_08", "area3_fase_09", "area3_fase_10"
+       ]
+    },
+    {
+        "id": "area_4",
+        "name": "Vulcão de Hades",
+        "subtitle": "Inferno Vulcânico",
+        "description": "Rios de plasma e núcleos planetários expostos.",
+        "threatLevel": "Crítica",
+        "modifiers": {
+          "enemyHp": 1.3,
+          "enemyDmg": 1.3,
+          "eliteChance": 0.2,
+          "bossHp": 1.4,
+          "gold": 1.2,
+          "xp": 1.2,
+          "shards": 1.2
+        },
+        "stages": [
+          "area4_fase_01", "area4_fase_02", "area4_fase_03", "area4_fase_04", "area4_fase_05",
+          "area4_fase_06", "area4_fase_07", "area4_fase_08", "area4_fase_09", "area4_fase_10"
+        ]
+    },
+    {
+        "id": "area_5",
+        "name": "Singularidade Final",
+        "subtitle": "Dimensão Final",
+        "description": "Onde o tempo e o espaço colapsam. O fim de Vorathon.",
+        "threatLevel": "Letal",
+        "modifiers": {
+          "enemyHp": 1.6,
+          "enemyDmg": 1.6,
+          "eliteChance": 0.25,
+          "bossHp": 1.7,
+          "gold": 1.3,
+          "xp": 1.3,
+          "shards": 1.25
+        },
+        "stages": [
+          "area5_fase_01", "area5_fase_02", "area5_fase_03", "area5_fase_04", "area5_fase_05",
+          "area5_fase_06", "area5_fase_07", "area5_fase_08", "area5_fase_09", "area5_fase_10"
+        ]
+    }
+  ]
+}
