@@ -15,7 +15,7 @@ class BackgroundSystem {
     private layers: ParallaxLayer[] = [];
     private initialized: boolean = false;
     private bgTime: number = 0;
-    private images: Record<string, HTMLImageElement> = {};
+    private images: Record<string, any> = {};
     
     // Smooth transition state
     private currentColors: { 
@@ -28,10 +28,25 @@ class BackgroundSystem {
 
     init() {
         if (this.initialized) return;
-        
-        // Try to load images (Optional)
-        const imageFiles = ['space_nebula_bg.png', 'starfield_bg.png'];
-        for (const file of imageFiles) {
+        this.initialized = true;
+        const themes = ['stage1', 'ocean', 'desert', 'lava', 'deep_space', 'forest'];
+        const layers = ['space_nebula_bg.png', 'starfield_bg.png'];
+
+        for (const theme of themes) {
+            this.images[theme] = {};
+            for (const file of layers) {
+                const img = new Image();
+                img.src = `/assets/backgrounds/${theme}/${file}`;
+                img.onload = () => { 
+                    if (!this.images[theme]) this.images[theme] = {};
+                    this.images[theme][file] = img; 
+                };
+            }
+        }
+
+        // Add base global assets as fallback
+        const globalFiles = ['space_nebula_bg.png', 'starfield_bg.png'];
+        for (const file of globalFiles) {
             const img = new Image();
             img.src = `/assets/backgrounds/${file}`;
             img.onload = () => { this.images[file] = img; };
@@ -124,9 +139,12 @@ class BackgroundSystem {
             ctx.save();
             ctx.globalAlpha = layer.opacity;
             
+            const themeId = theme.id.toLowerCase();
+            const themeAssets = this.images[themeId] || {};
+
             if (index === 1) {
                 // Distant Stars / Starfield
-                const img = this.images['starfield_bg.png'];
+                const img = themeAssets['starfield_bg.png'] || this.images['starfield_bg.png'];
                 if (img) {
                     this.drawTiledImage(ctx, img, width, height, layer.offset);
                 } else {
@@ -134,7 +152,7 @@ class BackgroundSystem {
                 }
             } else if (index === 2) {
                 // Nebulas
-                const img = this.images['space_nebula_bg.png'];
+                const img = themeAssets['space_nebula_bg.png'] || this.images['space_nebula_bg.png'];
                 ctx.globalCompositeOperation = 'screen';
                 if (img) {
                     this.drawTiledImage(ctx, img, width, height, layer.offset);
